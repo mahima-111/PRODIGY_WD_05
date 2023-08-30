@@ -17,7 +17,7 @@ async function getTemp(abc){
     let cityname=abc;
     let limit=1;
     
-    APIkey='fbc859c4173333d2e91106af7b82ca83';
+    APIkey='my key here';
     const url=`http://api.openweathermap.org/geo/1.0/direct?q=${cityname}&limit=${limit}&appid=${APIkey}`
 
     let resp= await fetch(url);
